@@ -47,7 +47,7 @@ export default function Landing() {
       <header className="sticky top-0 z-40 px-3 lg:px-6 pt-3 lg:pt-5">
         <div className="glass-strong rounded-2xl px-4 lg:px-6 py-3 flex items-center gap-3 max-w-7xl mx-auto">
           <Link to="/" className="flex items-center gap-2">
-            <div className="w-9 h-9 rounded-xl gradient-neon grid place-items-center font-bold text-white">T</div>
+            <div className="w-9 h-9 rounded-xl gradient-neon grid place-items-center font-bold text-white">M-P</div>
             <div className="font-bold tracking-tight">Manshor Pay</div>
           </Link>
           <nav className="hidden md:flex items-center gap-6 ms-8 text-sm text-muted-foreground">
