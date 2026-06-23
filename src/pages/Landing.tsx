@@ -88,8 +88,10 @@ export default function Landing() {
               {t('hero.subtitle')}
             </p>
             <div className="flex flex-wrap gap-3">
-              <Link to="/register"><GradientButton size="lg">{t('cta.createWallet')} <ArrowRight className="h-4 w-4 rtl:rotate-180" /></GradientButton></Link>
-              <Link to="/dashboard"><GradientButton size="lg" variant="outline">{t('cta.openDashboard')}</GradientButton></Link>
+              {/* <Link to="/register"><GradientButton size="lg">{t('cta.createWallet')} <ArrowRight className="h-4 w-4 rtl:rotate-180" /></GradientButton></Link>
+              <Link to="/dashboard"><GradientButton size="lg" variant="outline">{t('cta.openDashboard')}</GradientButton></Link> */}
+              <Link to="/"><GradientButton size="lg">{t('cta.createWallet')} <ArrowRight className="h-4 w-4 rtl:rotate-180" /></GradientButton></Link>
+              <Link to="/"><GradientButton size="lg" variant="outline">{t('cta.openDashboard')}</GradientButton></Link>
             </div>
 
             <div className="grid grid-cols-4 gap-4 mt-10 max-w-lg">
